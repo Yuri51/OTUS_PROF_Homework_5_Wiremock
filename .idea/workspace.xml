@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a3193a1-b8de-464f-95ec-15b0a454bef7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OTUS_PROF_Homework_3_RestAssured.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StubServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stubs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ScoreUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/UsersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spotbugs-security-exclude.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/__files/getCourses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/__files/getScoreUser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/__files/getUsers.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2VDdutm0LiBcFLy4m0ujY2HJTNf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/SPB/Documents/GitHub/OTUS_PROF_Homework_5_Wiremock"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock\src\main\java\services" />
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock\src\test\resources\_files\json" />
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock\stubs\mappings" />
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock\src\test\resources\__files" />
+      <recent name="C:\Users\SPB\Documents\GitHub\OTUS_PROF_Homework_5_Wiremock\src\test\resources\_files\json\json" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="services" />
+      <recent name="dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.getUserForId">
+    <configuration name="StubServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StubServerMain" />
+      <module name="OTUS_PROF_Homework_5_Wiremock" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="OTUS_PROF_Homework_3_RestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.courseGetAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_PROF_Homework_5_Wiremock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="courseGetAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.getScoreUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_PROF_Homework_5_Wiremock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="getScoreUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.getUserForId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_PROF_Homework_5_Wiremock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="getUserForId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.userGetAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_PROF_Homework_5_Wiremock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest" />
+      <option name="METHOD_NAME" value="userGetAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.StubServerMain" />
+      <item itemvalue="JUnit.ApiTest.courseGetAllTest" />
+      <item itemvalue="JUnit.ApiTest.getScoreUser" />
+      <item itemvalue="JUnit.ApiTest.getUserForId" />
+      <item itemvalue="JUnit.ApiTest.userGetAllTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.getUserForId" />
+        <item itemvalue="Application.StubServerMain" />
+        <item itemvalue="JUnit.ApiTest.courseGetAllTest" />
+        <item itemvalue="JUnit.ApiTest.userGetAllTest" />
+        <item itemvalue="JUnit.ApiTest.getScoreUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a3193a1-b8de-464f-95ec-15b0a454bef7" name="Changes" comment="" />
+      <created>1694374813100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694374813100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ApiTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
