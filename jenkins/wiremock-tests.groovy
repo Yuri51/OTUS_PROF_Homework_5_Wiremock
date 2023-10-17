@@ -1,6 +1,6 @@
 timeout(180) {
     node('maven') {
-        timestamp {
+        timestamps {
             wrap([$class: 'BuildUser']) {
                 summary = """|<b>Owner:</b> ${env.BUILD_USER}
                             |<b>Branch:</b> ${BRANCH}""".stripMargin()
@@ -12,11 +12,10 @@ timeout(180) {
             }
             stage('Run tests') {
                 tests_exit_code = sh(
-                        script: "mvn test -DbaseUrl=$BASE_URL",
+                    script: "mvn test -DbaseUrl=$BASE_URL",
                 )
-
                 if (tests_exit_code != 0) {
-                    currentBuild.status = 'UNSTABLE'
+                    currentBuild.result = 'UNSTABLE'
                 }
             }
 //            stage('Publish artifacts') {
