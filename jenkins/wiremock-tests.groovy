@@ -12,7 +12,8 @@ timeout(180) {
             }
             stage('Run tests') {
                 tests_exit_code = sh(
-                    script: "mvn test -DbaseUrl=$BASE_URL",
+                        script: "mvn test -DbaseUrl=$BASE_URL",
+                        returnStatus: true,
                 )
                 if (tests_exit_code != 0) {
                     currentBuild.result = 'UNSTABLE'
@@ -24,7 +25,7 @@ timeout(180) {
 //                        jdk: '',
 //                        properties: [],
 //                        reportBuildPolicy: 'ALWAYS',
-//                        results: [[path: 'build/reports/allure-results']]
+//                        results: [[path: 'allure-results']]
 //                ])
 //            }
         }
